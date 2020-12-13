@@ -1,0 +1,17 @@
+Package: xrescat
+Version: 1.2.1-1debian1
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 29
+Depends: libc6 (>= 2.4), libx11-6
+Homepage: https://github.com/tamirzb/xrescat
+Priority: optional
+Section: x11
+Filename: pool/main/x/xrescat/xrescat_1.2.1-1debian1_amd64.deb
+Size: 5816
+SHA256: 4004b139020e4ce64557cd7a7e5c34bae7c3f114189204cc0756d452f2e41fac
+SHA1: 53151dd56e592cc4625370f26ed4bb05e69c7a5d
+MD5sum: 9c96264613169dbac359334652530f8c
+Description: cat Xresources
+ Simple utility which prints the value of an X resource.
+
