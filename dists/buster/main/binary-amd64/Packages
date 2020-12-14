@@ -1,3 +1,88 @@
+Package: i3-gaps
+Source: i3-gaps-wm
+Version: 4.19-1debian1
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 21
+Depends: i3-gaps-wm (= 4.19-1debian1), i3-gaps-session (= 4.19-1debian1)
+Recommends: i3lock (>= 2.2), suckless-tools, i3status (>= 2.3), dunst
+Homepage: https://i3wm.org/
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-gaps-wm/i3-gaps_4.19-1debian1_amd64.deb
+Size: 15058
+SHA256: 9c52e0eb654ecab53dc5e0eec016b8225f6a280ea06bf98c3ad5d03a520c55cd
+SHA1: e830e012fbe4423811b0920ac406a99d4e68068c
+MD5sum: 353cfee1f6b2fc3692dca4fed2c9d7dd
+Description: metapackage (i3-gaps window manager, screen locker, menu, statusbar)
+ This metapackage installs the i3-gaps window manager (i3-gaps-wm), xsession, the i3lock screen
+ locker, i3status (for system information) and suckless-tools (for dmenu).
+ These are all the tools you need to use the i3-gaps window manager efficiently.
+
+Package: i3-gaps-session
+Source: i3-gaps-wm
+Version: 4.19-1debian1
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 24
+Depends: i3-gaps-wm (= 4.19-1debian1)
+Homepage: https://i3wm.org/
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-gaps-wm/i3-gaps-session_4.19-1debian1_amd64.deb
+Size: 15266
+SHA256: da1dc57e759006ccd842dc9e7d282d325cfe59ef7ce3962471eb4acdaaff2bf1
+SHA1: c30cb3cafd1a0af2d51df62ac21e26703f8df2d6
+MD5sum: c9f2c4e84dea6b96db79a00d1e29645a
+Description: Xsession for i3-gaps
+
+Package: i3-gaps-wm
+Version: 4.19-1debian1
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 993
+Depends: libc6 (>= 2.28), libcairo2 (>= 1.14.4), libev4 (>= 1:4.04), libglib2.0-0 (>= 2.51.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.22.0), libpcre3, libstartup-notification0 (>= 0.10), libxcb-cursor0 (>= 0.0.99), libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.12), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xinerama0, libxcb-xkb1, libxcb-xrm0 (>= 0.0.0), libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libyajl2 (>= 2.0.4), perl:any
+Recommends: xfonts-base, fonts-dejavu-core, libanyevent-i3-perl (>= 0.12), libjson-xs-perl, rxvt-unicode | x-terminal-emulator
+Conflicts: i3-wm
+Replaces: i3-wm
+Provides: i3-wm, x-window-manager
+Homepage: https://i3wm.org/
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-gaps-wm/i3-gaps-wm_4.19-1debian1_amd64.deb
+Size: 395974
+SHA256: 746d824e95e8d7e0ece78432380a8704dc13671ecb1c873c908448e4de550f75
+SHA1: 7fb9965a666c21c58604228fa9d2ef34970f30fe
+MD5sum: 545bd8ff736585b0ab3906e3d6a5a290
+Description: improved dynamic tiling window manager
+ Key features of i3-gaps are good documentation, reasonable defaults (changeable in
+ a simple configuration file) and good multi-monitor support. The user
+ interface is designed for power users and emphasizes keyboard usage. i3-gaps uses
+ XCB for asynchronous communication with X11 and aims to be fast and
+ light-weight.
+ .
+ Please be aware i3-gaps is primarily targeted at advanced users and developers.
+
+Package: i3-gaps-wm-dbg
+Source: i3-gaps-wm
+Version: 4.19-1debian1
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 1073
+Depends: i3-gaps-wm (= 4.19-1debian1)
+Homepage: https://i3wm.org/
+Priority: extra
+Section: debug
+Filename: pool/main/i/i3-gaps-wm/i3-gaps-wm-dbg_4.19-1debian1_amd64.deb
+Size: 943562
+SHA256: 0102046f711d73aa96cf9347816f1f52e21b0da98b6aa2e72d1fcc5d167fa01e
+SHA1: 092193e56cd50cb53bc808d93e9a333cd7b9b21a
+MD5sum: 60345927b29e25bc4b57e27c6f2d72c3
+Description: Debugging symbols for the i3-gaps window manager
+ Debugging symbols for the i3-gaps window manager. Please install this to produce
+ useful backtraces before creating new tickets.
+Build-Ids: 0f268ddd12b452458bfdf5d23ace76d8a163ea20 114122a53f78ea372c11056dccdca13c6e232cde 1e2c6db4510c1801863b59cae63ae2a86da71778 65180e1b299d99cd8af89b606c62a771edcdaba1 8cfd2c02fbd3618900d8b79d4a2298cc676998be bb51bcd1d7d5ce38f451054f4c5a74f5e66e313b be4a041d36c49e650ba25b1aa7321c703bcc79c9
+
 Package: regolith-desktop
 Version: 2.92-1buster
 Architecture: amd64
