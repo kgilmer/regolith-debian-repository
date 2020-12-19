@@ -1,13 +1,13 @@
 Origin: kgilmer.github.io/regolith-debian-repository
 Label: Regolith Debian
 Codename: buster
-Date: Sat, 19 Dec 2020 23:03:11 UTC
+Date: Sat, 19 Dec 2020 23:26:42 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: Regolith Debian
 MD5Sum:
- 52d4d52f5094b6ff480d7ee4f66feb27 60906 main/binary-amd64/Packages
- bfb44c34a64193dc94761e4afd28a387 14548 main/binary-amd64/Packages.gz
+ ba4724d73050161db2cf587d83646066 62294 main/binary-amd64/Packages
+ 520a18a638e43bac080f55b78f7199c5 14976 main/binary-amd64/Packages.gz
  9be83b0aa0b7e235b7cb014ff96a1a85 141 main/binary-amd64/Release
  0545895394287a35035cba850c955129 2019 main/binary-arm64/Packages
  45f521a2e5f2b0b93a69022255b17578 791 main/binary-arm64/Packages.gz
@@ -18,12 +18,12 @@ MD5Sum:
  0545895394287a35035cba850c955129 2019 main/binary-armhf/Packages
  45f521a2e5f2b0b93a69022255b17578 791 main/binary-armhf/Packages.gz
  b01ad4469ad11de65bb685ea24fd5909 141 main/binary-armhf/Release
- 484eba6eb2f2d98fc78822e3b8f69503 42670 main/source/Sources
- 6fe4e29ab52f8e72c5d63b8f2abec81b 11099 main/source/Sources.gz
+ 51acd0833d4d58a3f2346a191c40c858 45874 main/source/Sources
+ d80dd5eca4262433020bc045f9ac11d1 11934 main/source/Sources.gz
  c8bd59bef1d34eaa7fe545523bb62664 142 main/source/Release
 SHA1:
- 18617fb8c665ae8f01301bb4acf210f5ae07d8b7 60906 main/binary-amd64/Packages
- a3c56ea6879060d660e7667615dc3d7d0576aa44 14548 main/binary-amd64/Packages.gz
+ eda9769d56573337eeab895f9a9cfc74aadb5498 62294 main/binary-amd64/Packages
+ a0daec0f29f1ee04ed829f4cbb254b6a2b7ad830 14976 main/binary-amd64/Packages.gz
  23c78d8d581ce582b0d126889a39390b8e32e73c 141 main/binary-amd64/Release
  61c18e6d1ed2fae8c09aa8d2943d86984ef10bd5 2019 main/binary-arm64/Packages
  7a80a8f0c94a5bf2e694409ea975317aad960e32 791 main/binary-arm64/Packages.gz
@@ -34,12 +34,12 @@ SHA1:
  61c18e6d1ed2fae8c09aa8d2943d86984ef10bd5 2019 main/binary-armhf/Packages
  7a80a8f0c94a5bf2e694409ea975317aad960e32 791 main/binary-armhf/Packages.gz
  5f7551e068222b144e8dd35511cc9c65d2a71fe8 141 main/binary-armhf/Release
- 55fd8f675ddc240d41573bff933352d8b8e7fa9b 42670 main/source/Sources
- ed3c1a053eef521119d2ef0e36e64f04bf5dce22 11099 main/source/Sources.gz
+ a429aad3846f139c71040e9046bb114a6cbee6f8 45874 main/source/Sources
+ 1604f6f6e4578e7639f102669253e50c8f6035f2 11934 main/source/Sources.gz
  255036d6c452d03768b941729b7986bc65fb2a43 142 main/source/Release
 SHA256:
- f258de63d71923b87ab161cf2fd34f1de13d0f74af8c6a419e275435fb9d9a0e 60906 main/binary-amd64/Packages
- 94488b3fc334da2b60cb1c0f3b4540bc5e4372b8eb61602042ea9626fa4c6819 14548 main/binary-amd64/Packages.gz
+ dba9058aa8bcc978158ec9a0c5c44c24b7e0b47f2e4e478de771ecf849505b32 62294 main/binary-amd64/Packages
+ 521962133ff7b60e90b08eb0c4baa93de875f601035847643c22b799420279c7 14976 main/binary-amd64/Packages.gz
  11a43c42ee1f10d1be1cea961ee658d0675864a2134963eb2a7a0f50e3ff98a0 141 main/binary-amd64/Release
  2bd218684ef67f688c806b8d4d88b314c16b7f62a9fffb0ed589b65814913552 2019 main/binary-arm64/Packages
  553ad04864d1a4e2cd81018c49fb05bee855253cee220b88f7d5f3ce83dfdcd0 791 main/binary-arm64/Packages.gz
@@ -50,6 +50,6 @@ SHA256:
  2bd218684ef67f688c806b8d4d88b314c16b7f62a9fffb0ed589b65814913552 2019 main/binary-armhf/Packages
  553ad04864d1a4e2cd81018c49fb05bee855253cee220b88f7d5f3ce83dfdcd0 791 main/binary-armhf/Packages.gz
  bf6eed859f88272842347f6829f436faf128eca9fadc4c91519f9e169972f6b2 141 main/binary-armhf/Release
- 3005b978b281e41942eea5b640f938741e409419990eb214ffe9f90dae410132 42670 main/source/Sources
- 1d86d3cb5eb36c2fbf00ce361f0fb7fcd9fe9073c3036af49f48fa749c54684f 11099 main/source/Sources.gz
+ 49f2833073e050868b41d66c26de663cafae7ab87f938184143c3c46e50d886c 45874 main/source/Sources
+ 130b9805b4a7625ee5fbf74067090d618b61fcd89fca31070981a6dbac1e381e 11934 main/source/Sources.gz
  54368404445f0bfe2a74549bfe4160bf3eb20dc498a954d6eab39959192b0665 142 main/source/Release

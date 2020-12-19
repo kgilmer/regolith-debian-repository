@@ -176,6 +176,23 @@ Description: Script to open next workspace
  An i3 script intended to be called by keybinding
  to open next available empty workspace.
 
+Package: i3-snapshot
+Version: 1.0-1ubuntu1~ppa1-1regolith-1608420388
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 144
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libjsoncpp1 (>= 1.7.4), libsigc++-2.0-0v5 (>= 2.8.0), libstdc++6 (>= 9), i3-wm
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/i3-snapshot
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-snapshot/i3-snapshot_1.0-1ubuntu1~ppa1-1regolith-1608420388_amd64.deb
+Size: 46452
+SHA256: d163529358e9b2fd175ed1a40ae4824f64b1d90d5a824ad940a7caeac394118f
+SHA1: b1b82941a7c715ace1cdf475aa11ba3ecab93667
+MD5sum: 2dc24a288add1c7496339e441d466b2e
+Description: Record and restore window and workspace containment structure in i3-wm
+
 Package: i3xrocks
 Version: 1.3.4-1-1regolith-1608417411
 Architecture: amd64
@@ -758,6 +775,22 @@ Description: utility libraries for X C Binding -- atom, aux and event
  and interfaces which make the raw X protocol more usable. Some of the
  libraries also provide client-side code which is not strictly part of
  the X protocol but which have traditionally been provided by Xlib.
+
+Package: python3-i3ipc
+Version: 2.1.1-1ubuntu1~ppa7-1regolith-1608419874
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 120
+Depends: python3-xlib, python3:any (>= 3.4~), python3-gi, python3-dbus
+Homepage: https://github.com/altdesktop/i3ipc-python
+Priority: optional
+Section: x11
+Filename: pool/main/p/python3-i3ipc/python3-i3ipc_2.1.1-1ubuntu1~ppa7-1regolith-1608419874_amd64.deb
+Size: 20584
+SHA256: 2a82845bbefc5380e123acbbcefad1d0c6fd4805bfa09cd231046e8ba3f6ed35
+SHA1: 022702c792ca2718421e90fcc731eb1623fcc16d
+MD5sum: de087a59b7f3bad17e1b49e85ad0106b
+Description: An improved Python library to control i3wm and sway.
 
 Package: regolith-compositor-compton-glx
 Version: 1.1.0-1-1regolith-1608417529
