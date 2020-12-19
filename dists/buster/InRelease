@@ -4,13 +4,13 @@ Hash: SHA512
 Origin: kgilmer.github.io/regolith-debian-repository
 Label: Regolith Debian
 Codename: buster
-Date: Mon, 14 Dec 2020 06:43:31 UTC
+Date: Sat, 19 Dec 2020 19:35:36 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: Regolith Debian
 MD5Sum:
- d0f06fd53bf994b6fd48b505c9d6f62e 5933 main/binary-amd64/Packages
- fa8772044c162ba1677fc2202b6caf29 2462 main/binary-amd64/Packages.gz
+ 6c3030d82e5b72e4e23c8f77d9475f56 9411 main/binary-amd64/Packages
+ 0020cb8f69f0c84d41d35d8e32a118ac 3335 main/binary-amd64/Packages.gz
  9be83b0aa0b7e235b7cb014ff96a1a85 141 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
@@ -21,12 +21,12 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armhf/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
  b01ad4469ad11de65bb685ea24fd5909 141 main/binary-armhf/Release
- 2911ddea4b9b751922fd0e7e79c00ee1 3435 main/source/Sources
- bbe33cb11c6114e3064f694f0b108ad7 1351 main/source/Sources.gz
+ 17cfbbef15752bafd2042118f5a696da 5278 main/source/Sources
+ 1e45cf88d06cd4b377370717340d89c3 1952 main/source/Sources.gz
  c8bd59bef1d34eaa7fe545523bb62664 142 main/source/Release
 SHA1:
- 94d17250077a5a7254bbd1d348c5c4f44255fff5 5933 main/binary-amd64/Packages
- 82b88ba6b8e164081ca036df7b747fb80e028c42 2462 main/binary-amd64/Packages.gz
+ d743e6662505a4881f8633e201e591a4155ca6d4 9411 main/binary-amd64/Packages
+ 8282c135ef1c49f33da026a729ce136f203e2675 3335 main/binary-amd64/Packages.gz
  23c78d8d581ce582b0d126889a39390b8e32e73c 141 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
@@ -37,12 +37,12 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armhf/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
  5f7551e068222b144e8dd35511cc9c65d2a71fe8 141 main/binary-armhf/Release
- 4ed789dfbe92436ec7c65e6ad4f0ba98e7c9c3ab 3435 main/source/Sources
- a008a5f4f657ce06df856d71cc6f623cf891a4ca 1351 main/source/Sources.gz
+ 9dae2dd7b4293aad6e18d55ce2d4e9160e615183 5278 main/source/Sources
+ 399b03aa00e1ac249d7f7291b8b7909f6d8d785e 1952 main/source/Sources.gz
  255036d6c452d03768b941729b7986bc65fb2a43 142 main/source/Release
 SHA256:
- f4fa46ac2ce4afa6dc5aae45b69771edaea18e7c21e6edbde44b1f52c801472c 5933 main/binary-amd64/Packages
- e6319563f65419e83b43bac469d695f6f9838c351049e4b7467035462ba8d64b 2462 main/binary-amd64/Packages.gz
+ 6129a34e8fe5b9709fea44fc699c643db7999e72c302011eed21de27b06e3f97 9411 main/binary-amd64/Packages
+ 41088abacb07f051b01356cc69c02ad5ff571e05497e2848df987a6d12b7f091 3335 main/binary-amd64/Packages.gz
  11a43c42ee1f10d1be1cea961ee658d0675864a2134963eb2a7a0f50e3ff98a0 141 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
@@ -53,17 +53,17 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armhf/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armhf/Packages.gz
  bf6eed859f88272842347f6829f436faf128eca9fadc4c91519f9e169972f6b2 141 main/binary-armhf/Release
- b98f74cf6a80c54a368e96d6b57ae1cfbfeebdddf196c538c7c4142244d04a05 3435 main/source/Sources
- 264cec3c272e013e4a6cbd0fa011b6cac20aa93f3cf7ca2a48d2cd63ef4604e7 1351 main/source/Sources.gz
+ 0f80b63d5788eedd039120dbd3b69eeece337c0923b1e655b5de0264d02c9059 5278 main/source/Sources
+ c85f1f5db890887402c611cf48af4103eb2c471a523d8e34563a592d6c75dadf 1952 main/source/Sources.gz
  54368404445f0bfe2a74549bfe4160bf3eb20dc498a954d6eab39959192b0665 142 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCgAdFiEEnGAgWATYglsDGn/zdHOnpyxlcJwFAl/XCZMACgkQdHOnpyxl
-cJxQewgAonAgjhOITiwSsPlc/TxMG2WF5R8RIPTrLXHTXEQf4qU17/Ky+r4zUlt/
-gjPXzeZwLu1JYfowvVyT+J+oXf2iRsg+o/bDAhJWrpnUktCfDyEokGsJCwNltkau
-I4GRmSBqIvhbT0v4YfcihRMDjFZ2mdiY5vMAP91jBEXllF1cmzVbOJStbLuKpEA9
-WfEBr4b/pXmWWhAArJN6RaGbKTbMZlRRx/BCmxbPGUPXE3NFgfA/bOZvEA7OcTNK
-I9sTn5BKBtu+2AwFeFXobuWjYE+isknOd1voyhXtcFGNU7hbvw/d/THDEpAoyZu7
-cOFFd87HUEfIBZr8YiBoJEWivYlvBQ==
-=9d8D
+iQEzBAEBCgAdFiEEnGAgWATYglsDGn/zdHOnpyxlcJwFAl/eVggACgkQdHOnpyxl
+cJwLegf+MC9x++1mztGI6fm2kMQElOcBVdZ2a7RtAJLZNsrkqJpjYgh2I9Mw69D8
+cDFZw8mrkMudYthIfrYkTECyrxLPOrcUGFJuKCDekSXNVAP2cAP8VI4Eojz9wtEm
+J2QN5mpo5Cj4phYP/pqFNbm4Ozfh+/xAsA0cKpfEv+4fQV77F1ofxBqgLOHnQo9O
+rq5vf3d9O3IDRE0l2fSIJ8/bjR5AcAhtrJeOomjXQyoGO9dGkL+SyBdaNvUQAPv4
+RwnosP5UDeXklc08rQpAqkeQPLkPFnx3ZcrHoPFO2AeGEJSSVsdHe7BH0coAmip1
+6/HO7Q0xkCzp2qqXlUnukL/lwvN1+Q==
+=5wsH
 -----END PGP SIGNATURE-----

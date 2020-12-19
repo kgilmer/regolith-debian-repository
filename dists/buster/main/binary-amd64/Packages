@@ -83,6 +83,85 @@ Description: Debugging symbols for the i3-gaps window manager
  useful backtraces before creating new tickets.
 Build-Ids: 0f268ddd12b452458bfdf5d23ace76d8a163ea20 114122a53f78ea372c11056dccdca13c6e232cde 1e2c6db4510c1801863b59cae63ae2a86da71778 65180e1b299d99cd8af89b606c62a771edcdaba1 8cfd2c02fbd3618900d8b79d4a2298cc676998be bb51bcd1d7d5ce38f451054f4c5a74f5e66e313b be4a041d36c49e650ba25b1aa7321c703bcc79c9
 
+Package: libxcb-util-dev
+Source: xcb-util
+Version: 0.4.0-0ubuntu3-1regolith-1608406510
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 71
+Depends: libxcb-util1 (= 0.4.0-0ubuntu3-1regolith-1608406510), libxcb1-dev
+Conflicts: libxcb-atom1-dev, libxcb-aux0-dev, libxcb-event1-dev, libxcb-property1-dev, libxcb-reply1-dev
+Breaks: libxcb-util0-dev (<< 0.4.0-0ubuntu1)
+Replaces: libxcb-atom1-dev, libxcb-aux0-dev, libxcb-event1-dev, libxcb-property1-dev, libxcb-reply1-dev, libxcb-util0-dev (<< 0.4.0-0ubuntu1)
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Priority: extra
+Section: libdevel
+Filename: pool/main/x/xcb-util/libxcb-util-dev_0.4.0-0ubuntu3-1regolith-1608406510_amd64.deb
+Size: 25612
+SHA256: ea6a1f3ccd65397af107f78bf5ebd4a44c43a7230bda8cfea9d8a3ffa19361de
+SHA1: 5746cae1302eff8631faa9879fb9cd2fab47fc7e
+MD5sum: c932cc1694070cf9f76838ffcd95b553
+Description: utility libraries for X C Binding -- atom, aux and event
+ This package contains the header and library files needed to build software
+ using libxcb-util.
+ .
+ The xcb-util module provides a number of libraries which sit on top of
+ libxcb, the core X protocol library, and some of the extension
+ libraries. These experimental libraries provide convenience functions
+ and interfaces which make the raw X protocol more usable. Some of the
+ libraries also provide client-side code which is not strictly part of
+ the X protocol but which have traditionally been provided by Xlib.
+
+Package: libxcb-util0-dev
+Source: xcb-util
+Version: 0.4.0-0ubuntu3-1regolith-1608406510
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 26
+Depends: libxcb-util-dev (= 0.4.0-0ubuntu3-1regolith-1608406510)
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Priority: extra
+Section: libdevel
+Filename: pool/main/x/xcb-util/libxcb-util0-dev_0.4.0-0ubuntu3-1regolith-1608406510_amd64.deb
+Size: 17944
+SHA256: bac2a1d5ef69a7853ff18e59b249c57817d14a957a4cd127d6a78474741a2e9e
+SHA1: 7294ffd492642da1c47709bd91ce18405f34fd81
+MD5sum: 32475f737910cb18ce3b92c0f386d8bc
+Description: dummy transitional package for utility libraries for X C Binding -- atom, aux and event
+ This is a transitional dummy package for libxcb-util0-dev to
+ libxcb-util-dev migration.
+ .
+ This package can be safely removed.
+
+Package: libxcb-util1
+Source: xcb-util
+Version: 0.4.0-0ubuntu3-1regolith-1608406510
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 63
+Depends: libc6 (>= 2.8), libxcb1
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Priority: extra
+Section: libs
+Filename: pool/main/x/xcb-util/libxcb-util1_0.4.0-0ubuntu3-1regolith-1608406510_amd64.deb
+Size: 24316
+SHA256: 1e62e84dcbebf9868a3540d2c011073950546426fff03882660d0e98d9173c72
+SHA1: a406fefdaef2d0e90d7a98b1386060c7c960edfd
+MD5sum: 9be76afe5037a18b8cde4b143530949a
+Description: utility libraries for X C Binding -- atom, aux and event
+ This package contains the library files needed to run software using
+ libxcb-util.
+ .
+ The xcb-util module provides a number of libraries which sit on top of
+ libxcb, the core X protocol library, and some of the extension
+ libraries. These experimental libraries provide convenience functions
+ and interfaces which make the raw X protocol more usable. Some of the
+ libraries also provide client-side code which is not strictly part of
+ the X protocol but which have traditionally been provided by Xlib.
+
 Package: regolith-desktop
 Version: 2.92-1buster
 Architecture: amd64
