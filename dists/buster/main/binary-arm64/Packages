@@ -1,3 +1,44 @@
+Package: arc-theme
+Version: 1488477732.766ae1a-0
+Architecture: all
+Maintainer: Horst3180 <horst3180@gmx.net>
+Installed-Size: 4493
+Depends: gnome-themes-standard, gtk2-engines-murrine
+Priority: optional
+Section: misc
+Filename: pool/main/a/arc-theme/arc-theme_1488477732.766ae1a-0_all.deb
+Size: 293282
+SHA256: c79baa833feafb5c66831b4c9bd972671e74e110a3cc3bcaea50a5d807fe4bd2
+SHA1: 26d1188eadb58ea034b8d1c42777030db023c132
+MD5sum: c76894c8625f6ae831036b529b519202
+Description: Arc is a theme for GTK 3, GTK 2 and Gnome-Shell.
+ It supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, etc.
+
+Package: fonts-jetbrains-mono
+Version: 1.0.1-1regolith1-1regolith-1608423900
+Architecture: all
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 3848
+Multi-Arch: foreign
+Homepage: https://jetbrains.com/lp/mono
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-jetbrains-mono/fonts-jetbrains-mono_1.0.1-1regolith1-1regolith-1608423900_all.deb
+Size: 420388
+SHA256: ec666f9241ede28f359d68f949c47dc4139ef604a97d0aa1e36f5f8fed5e4a6f
+SHA1: 6f0a16e6b15ef8f495eb89fa0ab09e3f6a3d79c2
+MD5sum: 2abd7855c25a61dc318dfdac68d44292
+Description: Jetbrains Monon Typeface
+ See https://www.jetbrains.com/lp/mono/
+ .
+ The packaging is informal. I do not plan to upload this to Debian as
+ I am unsure about the copyright status of the toolchain. The
+ packaging also a somewhat hackish shortcut by extracting the files
+ from the released file obtained from the github repo.
+ .
+ I would be happy for another maintainer (or the fonts team) to take
+ it over as well.
+
 Package: libjson-glib-1.0-common
 Source: json-glib
 Version: 1.5.2-1-1regolith-1608418968

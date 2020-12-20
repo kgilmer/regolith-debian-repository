@@ -1,3 +1,19 @@
+Package: arc-theme
+Version: 1488477732.766ae1a-0
+Architecture: all
+Maintainer: Horst3180 <horst3180@gmx.net>
+Installed-Size: 4493
+Depends: gnome-themes-standard, gtk2-engines-murrine
+Priority: optional
+Section: misc
+Filename: pool/main/a/arc-theme/arc-theme_1488477732.766ae1a-0_all.deb
+Size: 293282
+SHA256: c79baa833feafb5c66831b4c9bd972671e74e110a3cc3bcaea50a5d807fe4bd2
+SHA1: 26d1188eadb58ea034b8d1c42777030db023c132
+MD5sum: c76894c8625f6ae831036b529b519202
+Description: Arc is a theme for GTK 3, GTK 2 and Gnome-Shell.
+ It supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, etc.
+
 Package: cahuella
 Version: 1.0.2-1-1regolith-1608417546
 Architecture: amd64
@@ -28,6 +44,31 @@ SHA1: 10ac891f0d12b33faa2bd0a470f1134a6df286b0
 MD5sum: d51e68dded860e5fec5a8d3b80f8a8f2
 Description: Dracula Theme for GTK
  Dark theme for GTK and 117+ apps.
+
+Package: fonts-jetbrains-mono
+Version: 1.0.1-1regolith1-1regolith-1608423900
+Architecture: all
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 3848
+Multi-Arch: foreign
+Homepage: https://jetbrains.com/lp/mono
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-jetbrains-mono/fonts-jetbrains-mono_1.0.1-1regolith1-1regolith-1608423900_all.deb
+Size: 420388
+SHA256: ec666f9241ede28f359d68f949c47dc4139ef604a97d0aa1e36f5f8fed5e4a6f
+SHA1: 6f0a16e6b15ef8f495eb89fa0ab09e3f6a3d79c2
+MD5sum: 2abd7855c25a61dc318dfdac68d44292
+Description: Jetbrains Monon Typeface
+ See https://www.jetbrains.com/lp/mono/
+ .
+ The packaging is informal. I do not plan to upload this to Debian as
+ I am unsure about the copyright status of the toolchain. The
+ packaging also a somewhat hackish shortcut by extracting the files
+ from the released file obtained from the github repo.
+ .
+ I would be happy for another maintainer (or the fonts team) to take
+ it over as well.
 
 Package: gir1.2-json-1.0
 Source: json-glib
@@ -890,11 +931,11 @@ MD5sum: 3aa68d3427454ce9cab70dd9dcc8d63f
 Description: Regolith default settings
 
 Package: regolith-desktop
-Version: 2.92-1buster
+Version: 2.97-1buster-1regolith-1608428928
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 15
-Depends: gnome-control-center, gnome-flashback, gnome-settings-daemon, i3-gaps-wm, i3-snapshot, i3xrocks, mutter-common, nautilus, regolith-compositor-picom-glx | regolith-compositor, regolith-default-settings, regolith-ftue, regolith-gnome-flashback, regolith-i3-gaps-config, regolith-i3xrocks-config, regolith-look-lascaille | regolith-look, regolith-rofi-config, regolith-rofication | notification-daemon, regolith-styles, regolith-unclutter-xfixes, rofi, xorg, xrescat
+Installed-Size: 16
+Depends: gnome-control-center, gnome-flashback, gnome-settings-daemon, i3-gaps-wm, i3-snapshot, i3xrocks, mutter-common, nautilus, regolith-compositor-picom-glx | regolith-compositor, regolith-default-settings, regolith-ftue, regolith-gnome-flashback, regolith-i3-gaps-config, regolith-i3xrocks-config, regolith-styles, regolith-rofi-config, regolith-rofication | notification-daemon, regolith-unclutter-xfixes, rofi, xorg, xrescat
 Recommends: i3xrocks-next-workspace
 Suggests: update-manager, software-properties-gtk
 Conflicts: regolith-desktop-meta, unclutter-startup
@@ -904,22 +945,22 @@ Multi-Arch: foreign
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-desktop/regolith-desktop_2.92-1buster_amd64.deb
-Size: 5184
-SHA256: e985f5112e603306a8d644ae8171f8f3699a561696bce6f1a1cc451dad36a666
-SHA1: 6348c857db9720403502decdbc47f354bd9bebc3
-MD5sum: 5ddc2bbd77921d647172caf266842ae8
+Filename: pool/main/r/regolith-desktop/regolith-desktop_2.97-1buster-1regolith-1608428928_amd64.deb
+Size: 5276
+SHA256: d8251ddc195f72f974c5b9bae4eb6574df20557afa51746f341e03e80d52c3b2
+SHA1: bf03db52014bf50652b6892532549d62227081fd
+MD5sum: b4df755b71a6f601f44bef2fe6ea737e
 Description: metapackage for Regolith desktop environment
  This package contains all the packages necessary for the
  desktop environment to function.
 
 Package: regolith-desktop-complete
 Source: regolith-desktop
-Version: 2.91-1bionic-1regolith-1608418209
+Version: 2.97-1buster-1regolith-1608428928
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 11
-Depends: gnome-control-center, gnome-flashback, gnome-screensaver, gnome-settings-daemon, i3-gaps-wm, i3xrocks, mutter-common, regolith-compositor-picom-glx | regolith-compositor, regolith-default-settings, regolith-ftue, regolith-gnome-flashback, regolith-i3-gaps-config, regolith-i3xrocks-config, regolith-look-lascaille | regolith-look, regolith-rofi-config, regolith-styles, regolith-unclutter-xfixes, rofi, xorg, xrescat
+Installed-Size: 12
+Depends: gnome-control-center, gnome-flashback, gnome-settings-daemon, i3-gaps-wm, i3xrocks, mutter-common, regolith-compositor-picom-glx | regolith-compositor, regolith-default-settings, regolith-ftue, regolith-gnome-flashback, regolith-i3-gaps-config, regolith-i3xrocks-config, regolith-styles, regolith-rofi-config, regolith-unclutter-xfixes, rofi, xorg, xrescat
 Recommends: i3xrocks-battery, i3xrocks-bluetooth, i3xrocks-cpu-usage, i3xrocks-disk-capacity, i3xrocks-focused-window-name, i3xrocks-info, i3xrocks-keyboard-layout, i3xrocks-key-indicator, i3xrocks-media-player, i3xrocks-memory, i3xrocks-net-traffic, i3xrocks-next-workspace, i3xrocks-nm-vpn, i3xrocks-openvpn, i3xrocks-temp, i3xrocks-time, i3xrocks-todo, i3xrocks-volume, i3xrocks-weather, i3xrocks-wifi, regolith-look-ayu, regolith-look-ayu-dark, regolith-look-ayu-mirage, regolith-look-cahuella, regolith-look-dracula, regolith-look-gruvbox, regolith-look-nord, regolith-look-pop-os, regolith-look-solarized-dark, regolith-look-ubuntu
 Suggests: update-manager, software-properties-gtk
 Conflicts: regolith-desktop-meta, unclutter-startup
@@ -929,22 +970,22 @@ Multi-Arch: foreign
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-desktop/regolith-desktop-complete_2.91-1bionic-1regolith-1608418209_amd64.deb
-Size: 4796
-SHA256: 2ee707f1c499f2d8b5ea4432370531b3dcd827088a21b8bceb08aa67b4c6e25f
-SHA1: 57c11ac89637f3d3d47fec36f3cdfe7cd402e92b
-MD5sum: c790aa1e6854c6439e6f8e9235f7c3bb
+Filename: pool/main/r/regolith-desktop/regolith-desktop-complete_2.97-1buster-1regolith-1608428928_amd64.deb
+Size: 5336
+SHA256: a693efa278d457459f749aeab1496a6211f6da74a68258c256463de3c1390984
+SHA1: 02fd22f3ea7ff44bad63bb799fcbbe44129626c0
+MD5sum: 6ebbd53608d0d837b380c466063083d4
 Description: metapackage for maximal Regolith desktop environment
  This package contains all packages available in the Regolith
  package archive.
 
 Package: regolith-desktop-minimal
 Source: regolith-desktop
-Version: 2.91-1bionic-1regolith-1608418209
+Version: 2.97-1buster-1regolith-1608428928
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 11
-Depends: gnome-control-center, gnome-flashback, gnome-screensaver, gnome-settings-daemon, i3-gaps-wm, i3xrocks, regolith-compositor-none | regolith-compositor, regolith-default-settings, regolith-ftue, regolith-gnome-flashback, regolith-i3-gaps-config, regolith-i3xrocks-config, regolith-look-lascaille | regolith-look, regolith-rofi-config, regolith-styles, regolith-unclutter-xfixes, rofi, xorg, xrescat
+Installed-Size: 12
+Depends: gnome-control-center, gnome-flashback, gnome-settings-daemon, i3-gaps-wm, i3xrocks, mutter-common, regolith-compositor-none | regolith-compositor, regolith-default-settings, regolith-ftue, regolith-gnome-flashback, regolith-i3-gaps-config, regolith-i3xrocks-config, regolith-styles, regolith-rofi-config, regolith-unclutter-xfixes, rofi, xorg, xrescat
 Suggests: update-manager, software-properties-gtk
 Conflicts: regolith-desktop-meta, unclutter-startup
 Replaces: regolith-desktop-meta
@@ -953,22 +994,22 @@ Multi-Arch: foreign
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-desktop/regolith-desktop-minimal_2.91-1bionic-1regolith-1608418209_amd64.deb
-Size: 4596
-SHA256: 885b9601a5bbbc4aa6bb8fa495516f381879493988706b676a04ab4fe9774a8a
-SHA1: 861e7acb497d818350c328293ea462270928aac2
-MD5sum: 147ca0237c1316b4e25a6dae23d4712b
+Filename: pool/main/r/regolith-desktop/regolith-desktop-minimal_2.97-1buster-1regolith-1608428928_amd64.deb
+Size: 5132
+SHA256: b26b65cc531118492ff1634fcfc2c0c1ad21bfd08cea7bf54da93094b4308533
+SHA1: b1ce9903270b037f3d69f35672af94e0663ac308
+MD5sum: 518ef6f2ba3f9f89fd39ec3e425f01ed
 Description: metapackage for minimal Regolith desktop environment
  This package contains minimal packages for functional desktop.
  Some functionality may not work due to missing dependencies.
 
 Package: regolith-desktop-mobile
 Source: regolith-desktop
-Version: 2.91-1bionic-1regolith-1608418209
+Version: 2.97-1buster-1regolith-1608428928
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 11
-Depends: gnome-control-center, gnome-flashback, gnome-screensaver, gnome-settings-daemon, i3-gaps-wm, i3xrocks, regolith-compositor-picom-glx | regolith-compositor, regolith-default-settings, regolith-ftue, regolith-gnome-flashback, regolith-i3-gaps-config, regolith-i3xrocks-config, regolith-look-lascaille | regolith-look, regolith-rofi-config, regolith-styles, regolith-unclutter-xfixes, rofi, xorg, xrescat
+Installed-Size: 12
+Depends: gnome-control-center, gnome-flashback, gnome-settings-daemon, i3-gaps-wm, i3xrocks, mutter-common, regolith-compositor-picom-glx | regolith-compositor, regolith-default-settings, regolith-ftue, regolith-gnome-flashback, regolith-i3-gaps-config, regolith-i3xrocks-config, regolith-styles, regolith-rofi-config, regolith-unclutter-xfixes, rofi, xorg, xrescat
 Recommends: i3xrocks-battery, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-next-workspace, i3xrocks-time
 Suggests: update-manager, software-properties-gtk
 Conflicts: regolith-desktop-meta, unclutter-startup
@@ -978,22 +1019,22 @@ Multi-Arch: foreign
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-desktop/regolith-desktop-mobile_2.91-1bionic-1regolith-1608418209_amd64.deb
-Size: 4656
-SHA256: 4839289bb0ebcb70ec76644ba14fbc27f1b3c17985aab4ff9a4035c98a2d0504
-SHA1: 265393f0730268d8b69b41300173374f38a718c1
-MD5sum: 3df9b23dd2d54ff1db3ab5b3fd3fa2bb
+Filename: pool/main/r/regolith-desktop/regolith-desktop-mobile_2.97-1buster-1regolith-1608428928_amd64.deb
+Size: 5200
+SHA256: 76f79ffb14fb62dfdcd100d9a3c8468afc07b0d08e09cd86a62516949645d522
+SHA1: 839811d0fd7a5384548451cb2f9b94bb28b16b09
+MD5sum: 5d2a916d734ae979c155a34c39169e76
 Description: metapackage for Regolith desktop environment on laptops
  This package contains minimal packages for functional desktop.
  Some functionality may not work due to missing dependencies.
 
 Package: regolith-desktop-standard
 Source: regolith-desktop
-Version: 2.91-1bionic-1regolith-1608418209
+Version: 2.97-1buster-1regolith-1608428928
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 11
-Depends: gnome-control-center, gnome-flashback, gnome-screensaver, gnome-settings-daemon, i3-gaps-wm, i3xrocks, regolith-compositor-picom-glx | regolith-compositor, regolith-default-settings, regolith-ftue, regolith-gnome-flashback, regolith-i3-gaps-config, regolith-i3xrocks-config, regolith-look-lascaille | regolith-look, regolith-rofi-config, regolith-styles, regolith-unclutter-xfixes, rofi, xorg, xrescat
+Installed-Size: 12
+Depends: gnome-control-center, gnome-flashback, gnome-settings-daemon, i3-gaps-wm, i3xrocks, mutter-common, regolith-compositor-picom-glx | regolith-compositor, regolith-default-settings, regolith-ftue, regolith-gnome-flashback, regolith-i3-gaps-config, regolith-i3xrocks-config, regolith-styles, regolith-rofi-config, regolith-unclutter-xfixes, rofi, xorg, xrescat
 Recommends: i3xrocks-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time
 Suggests: update-manager, software-properties-gtk
 Conflicts: regolith-desktop-meta, unclutter-startup
@@ -1003,11 +1044,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-desktop/regolith-desktop-standard_2.91-1bionic-1regolith-1608418209_amd64.deb
-Size: 4648
-SHA256: 53e6837056d5a2ad672defb1e3653d3feacc2328fa50bc07291e068288d2cfcf
-SHA1: 62bbf663ce19bdfd91741fecdfba1839eb12f10a
-MD5sum: d222185a9026e1c5c704630130f6fb56
+Filename: pool/main/r/regolith-desktop/regolith-desktop-standard_2.97-1buster-1regolith-1608428928_amd64.deb
+Size: 5192
+SHA256: 24873820bd87985181ec94bbd8f462e868a704454fe7867055341f13f4c93b55
+SHA1: 1aa270501f61d9d024d3f1eb88fbd3db2f4c76f8
+MD5sum: f94332ae78a7be59cf9e3b5b17f7d7b3
 Description: metapackage for standard Regolith desktop environment
  This package contains minimal packages for functional desktop.
  Some functionality may not work due to missing dependencies.
