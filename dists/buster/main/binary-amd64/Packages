@@ -14,6 +14,21 @@ MD5sum: c76894c8625f6ae831036b529b519202
 Description: Arc is a theme for GTK 3, GTK 2 and Gnome-Shell.
  It supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, etc.
 
+Package: ayu-theme
+Version: 0.2.0-1ubuntu1~ppa1-1regolith-1613357219
+Architecture: amd64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 10305
+Homepage: https://github.com/appelgriebsch/ayu-theme
+Priority: extra
+Section: x11
+Filename: pool/main/a/ayu-theme/ayu-theme_0.2.0-1ubuntu1~ppa1-1regolith-1613357219_amd64.deb
+Size: 311068
+SHA256: e3243d26d1ebfb5a3b038bf4efa17d6035237dfc1bdf8fbc7da857b3b5b0160e
+SHA1: d61793b6e0f2b15873b1e2fdafea9db400ceccde
+MD5sum: 41cf110875ccd154ac0dddfd906fd75a
+Description: Ayu Themes for GNOME 3.22
+
 Package: cahuella
 Version: 1.0.2-1-1regolith-1608417546
 Architecture: amd64
