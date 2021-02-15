@@ -85,6 +85,28 @@ Description: Jetbrains Monon Typeface
  I would be happy for another maintainer (or the fonts team) to take
  it over as well.
 
+Package: fonts-materialdesignicons-webfont
+Version: 1.6.50-3regolith1-1regolith-1613358680
+Architecture: all
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Installed-Size: 2781
+Multi-Arch: foreign
+Homepage: https://github.com/Templarian/MaterialDesign-Webfont
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-materialdesignicons-webfont/fonts-materialdesignicons-webfont_1.6.50-3regolith1-1regolith-1613358680_all.deb
+Size: 552652
+SHA256: 8f868b620d83a9680c661f1c768f39e0eec4211292693748d696b3cd07b397dc
+SHA1: a0dd597ddb7b40c7022f00bd6b65ffef1554be12
+MD5sum: 0c4d305f411c3fad928dbe39d1bdddc1
+Description: font containing Material Design Icons
+ Material Design Icons' growing icon collection allows designers and developers
+ targeting various platforms to download icons in the format, color and size
+ they need for any project. This font contains icons form this collection.
+ .
+ This package also provides Css, Scss and LESS files to use webfonts from this
+ package.
+
 Package: gir1.2-json-1.0
 Source: json-glib
 Version: 1.5.2-1-1regolith-1608418968
