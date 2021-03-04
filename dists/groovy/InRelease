@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: kgilmer.github.io/regolith-debian-repository
+Label: Regolith Ubuntu
+Codename: groovy
+Date: Thu, 04 Mar 2021 02:58:55 UTC
+Architectures: amd64
+Components: main
+Description: Regolith Ubuntu
+MD5Sum:
+ d56a94ca3233f90b823db42f428f5107 55959 main/binary-amd64/Packages
+ eb1a5df76b3b8619b31a9b5681682dc2 14039 main/binary-amd64/Packages.gz
+ e0da5eae95df0cb62c8efda124555a7d 141 main/binary-amd64/Release
+ ba8e51edf975c6f43a006e79a8761afe 44048 main/source/Sources
+ 397cd0e6490a9800a1b34df6d1f2cda7 11361 main/source/Sources.gz
+ 11c76c52872a57c382048de4a764a5c5 142 main/source/Release
+SHA1:
+ 63626a55b081f0c3efef05401a37a631bb32e071 55959 main/binary-amd64/Packages
+ e17aec37da5a2913a346f99cc105f461d23a9400 14039 main/binary-amd64/Packages.gz
+ 02e97e3d2c2058e98d67de4360ad68d506deb056 141 main/binary-amd64/Release
+ 08198f8e23db7aa7d96106edcfc0e1868938ab60 44048 main/source/Sources
+ 5bb57ab44908c354d185f68fbb5ed30a59186978 11361 main/source/Sources.gz
+ 4802679c28b7838bc630d232ccb0f552120edac4 142 main/source/Release
+SHA256:
+ 42bdaff41880b8a6268ef5381b5de06eff996f2c95c93bf00bc7f5931d953c90 55959 main/binary-amd64/Packages
+ ce06f4a1a76ee7453e97cf340a883819975f8207864d0af2c9427bd6db474504 14039 main/binary-amd64/Packages.gz
+ 6c47b7ab127e67074aaecce2479f174fdd6b9cff8b6b25f10399f282c61b7a10 141 main/binary-amd64/Release
+ c9cc9bd3c6ea503ee16e35deaf11c1309fea4c472918068fb5aa3fe226f93c87 44048 main/source/Sources
+ 38dad8fe7b2f869d22e7ab94894af5b552031debd2d22f3cc19e2356bbcd05da 11361 main/source/Sources.gz
+ f74affda9d4b3de7d529560b38b06b1ca642a3626b4c60b7135339538ba6f697 142 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEEnGAgWATYglsDGn/zdHOnpyxlcJwFAmBATO8ACgkQdHOnpyxl
+cJzghwf/fol+jMLY4XF+1ETj/LjlDDhCJ+yyFsOkLAdiwr+9meKO94HKCIjIbrHM
+BsR0wiZINyNVb27HqE1hRHNCJKqHqu+5N/yKCh1ubv75cgWwN4i+BPl0kjp0f9I/
+BfHuwxKTJu7fL0ng62TNwSu+7zLnwY4ZE7S/NR91w4PSzHm9zHxeW/aHIoE3ufxV
+4Q/DIQStq1haXxGm1TRp3LCWkTIepbmH2PTpnG325mKQ3zkUS6apd65Qvc3sDnwz
+UlMeD4/c0DI64J20E1NKufqscjkX+/80y+excJvNS8cmR1jsjyleTX1SoaRTOKjf
+vDmjsZ7/92tTp33aEsTFUEkuVkNeBA==
+=hiqg
+-----END PGP SIGNATURE-----

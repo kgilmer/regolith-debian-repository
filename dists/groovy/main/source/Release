@@ -1,0 +1,5 @@
+Component: main
+Origin: kgilmer.github.io/regolith-debian-repository
+Label: Regolith Ubuntu
+Architecture: source
+Description: Regolith Ubuntu
