@@ -1,8 +1,7 @@
 Origin: kgilmer.github.io/regolith-debian-repository
-Label: Regolith Debian
-Codename: buster
-Architectures: amd64 arm64 i386 armhf source
+Label: Regolith Ubuntu
+Codename: groovy
+Architectures: amd64 source
 Components: main
-Description: Regolith Debian
+Description: Regolith Ubuntu
 SignWith: 7473A7A72C65709C
-
